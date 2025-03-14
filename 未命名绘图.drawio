@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="N93IsJF5Zmy2jW_utWdf">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="520" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-5" value="V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-6" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-8" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-10" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-11" value="dialog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-13" value="BaseActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-15" value="BaseFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-16" value="BaseComDialog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="319.5" as="sourcePoint" />
+            <mxPoint x="860" y="319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-19" value="不同音源 实现的页面UI不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-22" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-23" value="&amp;nbsp;BaseViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="424.5" as="sourcePoint" />
+            <mxPoint x="860" y="424.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-25" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-26" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="40" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
