@@ -4,116 +4,125 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="250" width="520" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-5" value="V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-5" value="V" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="260" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-6" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-6" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="360" width="40" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="260" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-8" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-8" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="380" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-10" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-10" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="520" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-11" value="view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-11" value="view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="660" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="300" width="430" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-13" value="BaseActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-13" value="BaseActivity" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="305" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-15" value="BaseFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-15" value="BaseFragment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="305" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-16" value="dialog,button,tabview..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-16" value="dialog,button,tabview..." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="305" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="319.5" as="sourcePoint" />
             <mxPoint x="860" y="319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-19" value="不同音源 实现的页面UI不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-19" value="不同音源 实现的页面UI不同" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="370" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="360" width="440" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-22" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-22" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="520" y="370" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-23" value="&amp;nbsp;BaseViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-23" value="&amp;nbsp;BaseViewModel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="410" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="424.5" as="sourcePoint" />
             <mxPoint x="860" y="424.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-25" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-25" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-26" value="M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-26" value="M" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="480" width="40" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="480" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-28" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-28" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="495" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-29" value="BtMusicManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-29" value="BtMusicManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="495" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-30" value="MediaManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-30" value="MediaManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="495" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-31" value="MediaPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-31" value="MediaPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="530" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-32" value="UsbPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-32" value="UsbPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="530" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-33" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-33" value="..." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="530" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="524.5" as="sourcePoint" />
             <mxPoint x="860" y="524.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-36" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-36" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-45" value="使用Arouter进行view页面的跳转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-45" value="使用Arouter进行view页面的跳转" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ej64gbkuY5s0vnHcPtwu-8">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ej64gbkuY5s0vnHcPtwu-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="250" as="sourcePoint" />
             <mxPoint x="440" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ej64gbkuY5s0vnHcPtwu-51" target="ej64gbkuY5s0vnHcPtwu-10">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ej64gbkuY5s0vnHcPtwu-51" target="ej64gbkuY5s0vnHcPtwu-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-51" value="使用eventbus进行部分状态更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-51" value="使用eventbus进行部分状态更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ilneCHJh4BYG3vtHuUJI-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ej64gbkuY5s0vnHcPtwu-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="190" as="sourcePoint" />
+            <mxPoint x="770" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilneCHJh4BYG3vtHuUJI-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
