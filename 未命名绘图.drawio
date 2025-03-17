@@ -1325,7 +1325,7 @@
         <mxCell id="_TzMZeK9JzzP__RGllDW-24" value="repositroy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="_TzMZeK9JzzP__RGllDW-1">
           <mxGeometry x="750" y="770" width="310" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="_TzMZeK9JzzP__RGllDW-25" value="&lt;div&gt;CloudAudioFocusManager&lt;/div&gt;&lt;div&gt;CloudMusicPlayerServiceManager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="_TzMZeK9JzzP__RGllDW-1">
+        <mxCell id="_TzMZeK9JzzP__RGllDW-25" value="&lt;div&gt;CloudAudioFocusManager&lt;/div&gt;&lt;div&gt;CloudMusicSkipManager&lt;/div&gt;&lt;div&gt;CloudMusicPlayerServiceManager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="_TzMZeK9JzzP__RGllDW-1">
           <mxGeometry x="440" y="833.75" width="190" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="_TzMZeK9JzzP__RGllDW-26" value="&lt;div&gt;CloudMusicRepositoryFactory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="_TzMZeK9JzzP__RGllDW-1">
@@ -1631,36 +1631,23 @@
             <mxPoint x="440" y="-160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-3" value="单击曲目触发播放" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="380" y="-300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-6" target="xQOzRFFrm2YEu-G_Ustf-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-5" value="解析Intent参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-4">
-          <mxGeometry x="-0.2095" y="-1" relative="1" as="geometry">
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-1" value="bindCloudMusicService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-2">
+          <mxGeometry x="-0.0533" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-6" value="CloudListeningMusicPlayerActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="340" y="150" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-7" value="显示歌曲详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="380" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="xQOzRFFrm2YEu-G_Ustf-3" value="单击曲目触发播放" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="380" y="-300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQOzRFFrm2YEu-G_Ustf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-10" target="xQOzRFFrm2YEu-G_Ustf-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-9" value="确认音频焦点情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-8">
-          <mxGeometry x="-0.3167" y="3" relative="1" as="geometry">
-            <mxPoint x="-3" y="5" as="offset" />
-          </mxGeometry>
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-10" target="xQOzRFFrm2YEu-G_Ustf-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-10" value="ListeningPlayerManager.play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+        <mxCell id="xQOzRFFrm2YEu-G_Ustf-10" value="CloudMusicSkipManager.&lt;div&gt;skipToPlayerService&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
           <mxGeometry x="340" y="-190" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQOzRFFrm2YEu-G_Ustf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-13" target="xQOzRFFrm2YEu-G_Ustf-16">
@@ -1668,44 +1655,46 @@
             <mxPoint x="440" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-12" value="焦点获取成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-11">
-          <mxGeometry x="-0.1333" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="xQOzRFFrm2YEu-G_Ustf-13" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;Microsoft YaHei UI&#39;;font-size:9.0pt;&quot;&gt;CloudMusicPlayerServiceManager.setData&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="320" y="-80" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQOzRFFrm2YEu-G_Ustf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-13" value="AudioFocos.&lt;div&gt;setAudioFocusListener&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="380" y="-70" width="120" height="60" as="geometry" />
+        <mxCell id="xQOzRFFrm2YEu-G_Ustf-16" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;Microsoft YaHei UI&#39;;font-size:9.0pt;&quot;&gt;CloudMusicPlayerService.setDataPlay&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="330" y="40" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-16" target="xQOzRFFrm2YEu-G_Ustf-6">
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="snugz_Nf-cLjQ3gFQJdK-5" target="snugz_Nf-cLjQ3gFQJdK-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-15" value="Arouter跳转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-14">
-          <mxGeometry x="-0.2133" y="-1" relative="1" as="geometry">
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-13" value="获取歌曲详情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="snugz_Nf-cLjQ3gFQJdK-12">
+          <mxGeometry x="-0.2095" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-16" value="PlayerManager.play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="380" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-5" value="initPlayerData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="380" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="70" as="sourcePoint" />
-            <mxPoint x="590" y="70" as="targetPoint" />
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="snugz_Nf-cLjQ3gFQJdK-10" target="snugz_Nf-cLjQ3gFQJdK-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-18" value="播放动作均是通过kaolaSdk进行播放的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="590" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-10" value="ICloudMusicRepository&lt;div&gt;.getSongSheetById&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="370" y="280" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="xQOzRFFrm2YEu-G_Ustf-21" target="xQOzRFFrm2YEu-G_Ustf-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-20" value="回调播放进度，&lt;div&gt;状态，支持播控&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQOzRFFrm2YEu-G_Ustf-19">
-          <mxGeometry x="-0.0917" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xQOzRFFrm2YEu-G_Ustf-1" source="snugz_Nf-cLjQ3gFQJdK-15" target="snugz_Nf-cLjQ3gFQJdK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQOzRFFrm2YEu-G_Ustf-21" value="MusicViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
-          <mxGeometry x="60" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-15" value="MediaPlayerManager..setUrl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="360" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snugz_Nf-cLjQ3gFQJdK-17" value="mediaPlayer.setDataSource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xQOzRFFrm2YEu-G_Ustf-1">
+          <mxGeometry x="360" y="510" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
