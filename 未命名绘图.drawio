@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="4">
   <diagram name="第 1 页" id="N93IsJF5Zmy2jW_utWdf">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,6 +554,23 @@
         </mxCell>
         <mxCell id="kdBa5IftCGlORqTTI2eZ-131" value="BlueToothProxy的原子接口包括：&lt;div&gt;&lt;div&gt;1.OnBluetoothDataChangedListener：媒体数据变化&lt;/div&gt;&lt;div&gt;2.OnBluetoothDevicesChangedListener：蓝牙设备变化&lt;/div&gt;&lt;div&gt;3.OnBluetoothMusicPlayStatusChangedListener：播放状态&lt;/div&gt;&lt;div&gt;4.OnBluetoothPlayPositionChangeListener:进度更新&lt;/div&gt;&lt;div&gt;5.OnBluetoothServiceConnectionStatusListener：服务连接状态&lt;/div&gt;&lt;div&gt;6.OnBluetoothStatusChangedListener：蓝牙连接状态&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="1">
           <mxGeometry x="490" y="1270" width="360" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Browser" id="21CBwQSNvHYQqVFqHNqR">
+    <mxGraphModel dx="1489" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="pM35sQhbNbJdYFbjL5zW-0" />
+        <mxCell id="pM35sQhbNbJdYFbjL5zW-1" parent="pM35sQhbNbJdYFbjL5zW-0" />
+        <mxCell id="qeH90RY3F0xMuvO9h8eL-0" value="BrowserHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="pM35sQhbNbJdYFbjL5zW-1">
+          <mxGeometry x="-50" y="160" width="150" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="qeH90RY3F0xMuvO9h8eL-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Microsoft YaHei UI&#39;;font-size:9.0pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 60, 86); font-family: Helvetica; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;BrowserHelper&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="pM35sQhbNbJdYFbjL5zW-1">
+          <mxGeometry x="-300" y="160" width="150" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="qeH90RY3F0xMuvO9h8eL-2" value="BrowserHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="pM35sQhbNbJdYFbjL5zW-1">
+          <mxGeometry x="-550" y="160" width="150" height="1110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
