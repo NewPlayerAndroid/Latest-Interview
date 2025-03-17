@@ -1083,6 +1083,15 @@
         <mxCell id="zSIatmOjGDvfo9TY70hJ-52" value="IAIRadioRepository.&lt;div&gt;getAiByNameAsyncRx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285.25" y="1330" width="151.5" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zSIatmOjGDvfo9TY70hJ-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1440" as="sourcePoint" />
+            <mxPoint x="120" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="361" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
