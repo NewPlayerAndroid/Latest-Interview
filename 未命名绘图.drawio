@@ -552,6 +552,9 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kdBa5IftCGlORqTTI2eZ-131" value="BlueToothProxy的原子接口包括：&lt;div&gt;&lt;div&gt;1.OnBluetoothDataChangedListener：媒体数据变化&lt;/div&gt;&lt;div&gt;2.OnBluetoothDevicesChangedListener：蓝牙设备变化&lt;/div&gt;&lt;div&gt;3.OnBluetoothMusicPlayStatusChangedListener：播放状态&lt;/div&gt;&lt;div&gt;4.OnBluetoothPlayPositionChangeListener:进度更新&lt;/div&gt;&lt;div&gt;5.OnBluetoothServiceConnectionStatusListener：服务连接状态&lt;/div&gt;&lt;div&gt;6.OnBluetoothStatusChangedListener：蓝牙连接状态&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1270" width="360" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
