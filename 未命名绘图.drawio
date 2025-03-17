@@ -935,8 +935,18 @@
         <mxCell id="zFTjgEAf0lw-Ioq4GhUF-38" value="IRecommendRepository.&lt;div&gt;getRecommendMap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-700" y="1340" width="143" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zSIatmOjGDvfo9TY70hJ-3" value="kaolaSDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-213.5" y="1569.9966259765624" width="120" height="60" as="geometry" />
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zSIatmOjGDvfo9TY70hJ-3" target="rJ4TlF1n84ADfavJ4cx--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-153.5" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--3" value="bindService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rJ4TlF1n84ADfavJ4cx--1">
+          <mxGeometry x="-0.1357" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-3" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="1579.9966259765624" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zSIatmOjGDvfo9TY70hJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zFTjgEAf0lw-Ioq4GhUF-23" target="zSIatmOjGDvfo9TY70hJ-14">
           <mxGeometry relative="1" as="geometry">
@@ -970,7 +980,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSIatmOjGDvfo9TY70hJ-20" value="最终都是通过SDK获取相关数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-19">
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-20" value="通过DataManager获取相关数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-19">
           <mxGeometry x="0.5292" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1092,11 +1102,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rJ4TlF1n84ADfavJ4cx--2" target="rJ4TlF1n84ADfavJ4cx--5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-153.5" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--6" value="最终都是通过kaolaSdk获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rJ4TlF1n84ADfavJ4cx--4">
+          <mxGeometry x="-0.1717" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--2" value="ListeningService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rJ4TlF1n84ADfavJ4cx--5" value="kaolaSdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="gIJr96wYixltmWiVf-o0" name="云听播放流程">
-    <mxGraphModel dx="441" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
