@@ -112,8 +112,65 @@
         <mxCell id="ej64gbkuY5s0vnHcPtwu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ej64gbkuY5s0vnHcPtwu-51" target="ej64gbkuY5s0vnHcPtwu-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-51" value="使用eventbus进行部分状态更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-51" value="使用eventbus进行组件间的通信" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-1" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-3" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="700" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="590" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-7" value="&amp;nbsp;BtMusicService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="605" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-8" value="UsbService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="605" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-9" value="MediaService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="605" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-10" value="RadioService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="640" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-11" value="ListeningService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-12" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="640" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-15" value="BluetoothProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="715" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-16" value="UsbProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="715" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-17" value="MediaProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="715" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-18" value="RadioProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-19" value="ListeningProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="750" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-20" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="750" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="634.5" as="sourcePoint" />
+            <mxPoint x="860" y="634.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-22" value="后台播放服务，不同音源实现不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="605" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
