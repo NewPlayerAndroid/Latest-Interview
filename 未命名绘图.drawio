@@ -1096,7 +1096,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gIJr96wYixltmWiVf-o0" name="云听播放流程">
-    <mxGraphModel dx="794" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="441" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1158,7 +1158,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tj2VYvhXzdEXUG55cfeI-13" value="PlayerManager.start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj2VYvhXzdEXUG55cfeI-13" value="PlayerManager.play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tj2VYvhXzdEXUG55cfeI-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
