@@ -775,7 +775,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pe_f-xyRyw9PCtuWrOla" name="云听页面启动过程">
-    <mxGraphModel dx="1621" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -916,7 +916,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSIatmOjGDvfo9TY70hJ-16" value="通过viewmodel获取数据，并展示UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zFTjgEAf0lw-Ioq4GhUF-34">
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-16" value="通过viewmodel获取数据，&lt;div&gt;根据livedata结果更新UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zFTjgEAf0lw-Ioq4GhUF-34">
           <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="28" as="offset" />
           </mxGeometry>
@@ -985,7 +985,7 @@
             <mxPoint x="-317.5" y="1100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSIatmOjGDvfo9TY70hJ-11" value="通过viewmodel获取数据，&lt;div&gt;分了4个tab并展示UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-10">
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-11" value="通过viewmodel获取数据，&lt;div&gt;分了4个tab并根据livedata结果更新UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-10">
           <mxGeometry x="-0.3872" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" y="15" as="offset" />
           </mxGeometry>
@@ -1028,7 +1028,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSIatmOjGDvfo9TY70hJ-24" value="通过viewmodel获取数据，并展示UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-23">
+        <mxCell id="zSIatmOjGDvfo9TY70hJ-24" value="通过viewmodel获取数据，&lt;div&gt;根据livedata结果更新UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSIatmOjGDvfo9TY70hJ-23">
           <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="28" as="offset" />
           </mxGeometry>
@@ -1413,7 +1413,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-29" value="通过viewmodel获取数据，并展示UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-28">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-29" value="通过viewmodel获取数据，&lt;div&gt;根据livedata结果更新UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-28">
           <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="28" as="offset" />
           </mxGeometry>
@@ -1468,7 +1468,7 @@
             <mxPoint x="-317.5" y="1100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-45" value="通过viewmodel获取数据，&lt;div&gt;分了4个tab并展示UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-44">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-45" value="通过viewmodel获取数据，&lt;div&gt;根据livedata结果更新UI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-44">
           <mxGeometry x="-0.3872" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" y="15" as="offset" />
           </mxGeometry>
