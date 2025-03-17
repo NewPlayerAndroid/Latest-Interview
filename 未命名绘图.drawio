@@ -1346,7 +1346,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="网易云页面启动过程 " id="HkvsK1-FI8WfHkCg690C">
-    <mxGraphModel dx="2448" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2588" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-0" />
         <mxCell id="tJIQZwwzAjVrlEyp59sw-1" parent="tJIQZwwzAjVrlEyp59sw-0" />
@@ -1397,7 +1397,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-160" y="1000" />
-              <mxPoint x="360" y="1000" />
+              <mxPoint x="460" y="1000" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1434,7 +1434,7 @@
           <mxGeometry x="50" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicAudioBookFragment&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="300" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-37" target="tJIQZwwzAjVrlEyp59sw-40">
           <mxGeometry relative="1" as="geometry">
@@ -1514,9 +1514,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-60" value="通过viewmodel获取数据，展示相关tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-59">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-60" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;通过viewmodel获取数据，&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;根据livedata更新展示相关tab和列表内容&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-59">
           <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="28" as="offset" />
+            <mxPoint y="43" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-63" target="tJIQZwwzAjVrlEyp59sw-64">
@@ -1535,18 +1535,19 @@
         <mxCell id="tJIQZwwzAjVrlEyp59sw-64" value="&lt;span style=&quot;text-align: left;&quot;&gt;ICloudMusicRepository.&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;div&gt;getVoiceTabList&lt;/div&gt;&lt;div&gt;getVoiceList&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="33.43" y="1520" width="151.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" target="tJIQZwwzAjVrlEyp59sw-70">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" target="tJIQZwwzAjVrlEyp59sw-70" source="tJIQZwwzAjVrlEyp59sw-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="419.5" y="1180" as="targetPoint" />
             <mxPoint x="359.5" y="1100" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="359.5" y="1180" />
+              <mxPoint x="450" y="1210" />
+              <mxPoint x="450" y="1210" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-67" value="通过viewmodel获取数据，展示相关tab" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-66">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-67" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;通过viewmodel获取数据，&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;根据livedata更新展示相关tab和列表内容&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-66">
           <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="28" as="offset" />
+            <mxPoint x="-2" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-70" target="tJIQZwwzAjVrlEyp59sw-71">
@@ -1559,11 +1560,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-70" value="AIRadioViewModel.&lt;div&gt;broadcastLiveData&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="283.25" y="1195" width="151.5" height="60" as="geometry" />
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-70" value="CloudMusicHomeAudioBookViewModel.&lt;div&gt;&lt;div&gt;mAudioBookTagLiveData//有声书tab&lt;/div&gt;&lt;div&gt;mAudioBookListLiveData//有声书tab下的歌单列表&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="305.81" y="1255" width="288.38" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-71" value="IAIRadioRepository.&lt;div&gt;getAiByNameAsyncRx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="285.25" y="1330" width="151.5" height="60" as="geometry" />
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-71" value="&lt;span style=&quot;text-align: left;&quot;&gt;ICloudMusicRepository.&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;getSecondCategory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;getPodcastById&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="374.25" y="1520" width="151.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-75" target="tJIQZwwzAjVrlEyp59sw-76">
           <mxGeometry relative="1" as="geometry">
@@ -1614,8 +1615,8 @@
         <mxCell id="fayN0snZuHZ8IdRR4SvS-2" value="ICloudMusicRepository.&lt;div&gt;getTopList&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-505.75" y="1520" width="171.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fayN0snZuHZ8IdRR4SvS-6" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;通过viewmodel获取数据，展示相关tab&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-265" y="1148" width="210" height="30" as="geometry" />
+        <mxCell id="fayN0snZuHZ8IdRR4SvS-6" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;通过viewmodel获取数据，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;根据livedata更新展示相关tab和列表内容&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-270" y="1143" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
