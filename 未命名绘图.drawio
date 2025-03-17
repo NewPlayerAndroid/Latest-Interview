@@ -1350,93 +1350,19 @@
       <root>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-0" />
         <mxCell id="tJIQZwwzAjVrlEyp59sw-1" parent="tJIQZwwzAjVrlEyp59sw-0" />
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-3" value="MainActivity启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="160" width="120" height="50" as="geometry" />
+          <mxGeometry x="-220" y="430" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-5" target="tJIQZwwzAjVrlEyp59sw-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-5" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;MainFragment.init&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-8" target="tJIQZwwzAjVrlEyp59sw-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-6">
-          <mxGeometry x="-0.0778" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-8" value="判断当前音源是否为云听" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-225" y="360" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-10" target="tJIQZwwzAjVrlEyp59sw-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-10" value="拉起云听主页&lt;div&gt;HomeCloudListeningFragment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-15" target="tJIQZwwzAjVrlEyp59sw-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-80" y="670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-11">
-          <mxGeometry x="-0.0857" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-13">
-          <mxGeometry x="-0.3169" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-15" value="是否是首次启动" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-200" y="630" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-18" target="tJIQZwwzAjVrlEyp59sw-21">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="10" y="800" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-17" value="同意协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-16">
-          <mxGeometry x="-0.4603" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-18" value="展示UsageTipsFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-50" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-21" target="tJIQZwwzAjVrlEyp59sw-27">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" target="tJIQZwwzAjVrlEyp59sw-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-160" y="880" as="targetPoint" />
+            <mxPoint x="-160" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-20" value="加载viewpager和相关tablayout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-19">
           <mxGeometry x="-0.181" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-21" value="展示HomeCloudListeningFullFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-27">
           <mxGeometry relative="1" as="geometry">
@@ -1475,7 +1401,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-27" value="setupViews" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-27" value="setTabList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-220" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-30" target="tJIQZwwzAjVrlEyp59sw-37">
@@ -1492,19 +1418,19 @@
             <mxPoint x="-2" y="28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-30" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;RecommendFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-30" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicRecommendFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-690" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-31" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;OnlineBroadcastFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicRankinglistFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-480" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-32" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CCTVFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-32" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicPlaylistFragment&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-220" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-33" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;SpecialFragment&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-33" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicPodcastFragment&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="50" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;AIRadioFragment&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;CloudMusicAudioBookFragment&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="300" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-37" target="tJIQZwwzAjVrlEyp59sw-40">
@@ -1517,25 +1443,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-37" value="RecommendViewModel.&lt;div&gt;recommendMap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-700" y="1195" width="140" height="60" as="geometry" />
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-37" value="&lt;div&gt;CloudMusicHomeRecommendViewModel.&lt;/div&gt;&lt;div&gt;dailyRecommendLiveData //每日推荐&lt;/div&gt;&lt;div&gt;personalWanderLiveData//私人漫游&lt;/div&gt;&lt;div&gt;personalRadarLiveData//私人雷达&lt;/div&gt;&lt;div&gt;rankingListLiveData//排行榜&lt;/div&gt;&lt;div&gt;recommendPlaylistLiveData//推荐歌单&lt;/div&gt;&lt;div&gt;latestPlaylistLiveData//最新单曲&lt;/div&gt;&lt;div&gt;podcastListLiveData//播客&lt;/div&gt;&lt;div&gt;audioBookLiveData//有声书&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-745" y="1210" width="230" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-40" target="tJIQZwwzAjVrlEyp59sw-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="1500.6666259765625" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-628" y="1440" />
-              <mxPoint x="-153" y="1440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-39" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-38">
-          <mxGeometry x="-0.0349" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-40" value="IRecommendRepository.&lt;div&gt;getRecommendMap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-700" y="1340" width="143" height="60" as="geometry" />
+        <mxCell id="tJIQZwwzAjVrlEyp59sw-40" value="ICloudMusicRepository&lt;div&gt;&lt;div&gt;getDailyRecommendList&lt;/div&gt;&lt;div&gt;getPersonalWanderList&lt;/div&gt;&lt;div&gt;getPersonalRadarList&lt;/div&gt;&lt;div&gt;getRecommendPlayList&lt;/div&gt;&lt;div&gt;getTopList&lt;/div&gt;&lt;div&gt;getRecommendLatestSongList&lt;/div&gt;&lt;div&gt;fetchPodcastList&lt;/div&gt;&lt;div&gt;getAudioBookList&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-715.75" y="1460" width="171.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-43" target="tJIQZwwzAjVrlEyp59sw-75">
           <mxGeometry relative="1" as="geometry">
@@ -1719,6 +1631,36 @@
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-76" value="kaolaSdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-213.5" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="530" as="targetPoint" />
+            <mxPoint x="-160" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="vsJyrOk-x60VC2LxWO24-2" target="vsJyrOk-x60VC2LxWO24-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-2" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;MainFragment.init&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-220" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="vsJyrOk-x60VC2LxWO24-5" target="vsJyrOk-x60VC2LxWO24-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-4" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsJyrOk-x60VC2LxWO24-3">
+          <mxGeometry x="-0.0778" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-5" value="判断当前音源是否为网易云" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-225" y="630" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsJyrOk-x60VC2LxWO24-6" value="拉起网易云主页&lt;div&gt;CloudMusicHomeFragment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
+          <mxGeometry x="-220" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
