@@ -951,7 +951,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="USB音乐工作流程" id="pgRNgvDvTtKXfy-Gzwhx">
-    <mxGraphModel dx="1621" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-0" />
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-1" parent="NB1iHqO7YpRbqfeVLIh9-0" />
@@ -1022,7 +1022,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-12" value="USBRemote" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;textDirection=vertical-lr;" vertex="1" parent="NB1iHqO7YpRbqfeVLIh9-1">
-          <mxGeometry x="490" y="260" width="30" height="820" as="geometry" />
+          <mxGeometry x="490" y="260" width="30" height="590" as="geometry" />
         </mxCell>
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" source="NB1iHqO7YpRbqfeVLIh9-10" target="NB1iHqO7YpRbqfeVLIh9-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1063,7 +1063,7 @@
             <mxPoint x="1" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NB1iHqO7YpRbqfeVLIh9-26" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;entryX=1.078;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.056;exitY=0.106;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" source="NB1iHqO7YpRbqfeVLIh9-12" target="NB1iHqO7YpRbqfeVLIh9-15">
+        <mxCell id="NB1iHqO7YpRbqfeVLIh9-26" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;entryX=1.078;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.144;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" source="NB1iHqO7YpRbqfeVLIh9-12" target="NB1iHqO7YpRbqfeVLIh9-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="590" as="sourcePoint" />
             <mxPoint x="350" y="540" as="targetPoint" />
@@ -1105,13 +1105,13 @@
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-39" value="通过系统数据库读取USB媒体数据，转换数据，并保存到本地" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;labelBackgroundColor=none;" vertex="1" parent="NB1iHqO7YpRbqfeVLIh9-1">
           <mxGeometry x="680" y="555" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NB1iHqO7YpRbqfeVLIh9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.078;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" target="NB1iHqO7YpRbqfeVLIh9-12">
+        <mxCell id="NB1iHqO7YpRbqfeVLIh9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="612" />
             </Array>
             <mxPoint x="250" y="607.1" as="sourcePoint" />
-            <mxPoint x="440" y="613" as="targetPoint" />
+            <mxPoint x="492" y="612" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NB1iHqO7YpRbqfeVLIh9-62" value="play,pause,next,previous,seek" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NB1iHqO7YpRbqfeVLIh9-61">
@@ -1151,7 +1151,7 @@
         <mxCell id="4YYEBbR2hITSbRq41SNM-12" value="UsbPlayerManager" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;labelBackgroundColor=none;" vertex="1" parent="NB1iHqO7YpRbqfeVLIh9-1">
           <mxGeometry x="820" y="640" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4YYEBbR2hITSbRq41SNM-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.989;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" source="4YYEBbR2hITSbRq41SNM-12" target="NB1iHqO7YpRbqfeVLIh9-12">
+        <mxCell id="4YYEBbR2hITSbRq41SNM-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.124;entryY=0.776;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" source="4YYEBbR2hITSbRq41SNM-12" target="NB1iHqO7YpRbqfeVLIh9-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="770" as="sourcePoint" />
             <mxPoint x="740" y="720" as="targetPoint" />
@@ -1174,6 +1174,30 @@
         <mxCell id="4YYEBbR2hITSbRq41SNM-30" value="获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YYEBbR2hITSbRq41SNM-28">
           <mxGeometry x="-0.1365" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3FtwTjDFvDkHHc1sFdv-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NB1iHqO7YpRbqfeVLIh9-1" target="4YYEBbR2hITSbRq41SNM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="1000" as="sourcePoint" />
+            <mxPoint x="320" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3FtwTjDFvDkHHc1sFdv-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22play%2Cpause%2Cnext%2Cprevious%2Cseek%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22338.0999999999999%22%20y%3D%22610%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z3FtwTjDFvDkHHc1sFdv-0">
+          <mxGeometry x="-0.1647" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3FtwTjDFvDkHHc1sFdv-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22play%2Cpause%2Cnext%2Cprevious%2Cseek%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22338.0999999999999%22%20y%3D%22610%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z3FtwTjDFvDkHHc1sFdv-0">
+          <mxGeometry x="-0.1529" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3FtwTjDFvDkHHc1sFdv-3" value="play,pause,next,previous,seek" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z3FtwTjDFvDkHHc1sFdv-0">
+          <mxGeometry x="0.1118" y="-2" relative="1" as="geometry">
+            <mxPoint x="-242" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -2290,7 +2314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="asIXNFmIU9OQoAsxYE6c" name="MediaService业务流程">
-    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="756" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
