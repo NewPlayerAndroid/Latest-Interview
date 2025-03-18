@@ -623,7 +623,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="radio 工作流程" id="ZieloZipYSnn72m1afSN">
-    <mxGraphModel dx="1621" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Kopg9hJ7KiusflDtcfO6-0" />
         <mxCell id="Kopg9hJ7KiusflDtcfO6-1" parent="Kopg9hJ7KiusflDtcfO6-0" />
@@ -862,9 +862,6 @@
         </mxCell>
         <mxCell id="2XnBzJVL8Z5lsKgaGL9a-45" value="mute" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;textDirection=vertical-lr;" vertex="1" parent="Kopg9hJ7KiusflDtcfO6-1">
           <mxGeometry x="710" y="680" width="30" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2XnBzJVL8Z5lsKgaGL9a-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.922;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Kopg9hJ7KiusflDtcfO6-1" source="2XnBzJVL8Z5lsKgaGL9a-45" target="2XnBzJVL8Z5lsKgaGL9a-45">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2XnBzJVL8Z5lsKgaGL9a-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Kopg9hJ7KiusflDtcfO6-1" target="2XnBzJVL8Z5lsKgaGL9a-8">
           <mxGeometry relative="1" as="geometry">
