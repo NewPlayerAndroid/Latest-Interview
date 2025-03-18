@@ -207,7 +207,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="MediaCenter重构" id="CUfBlCtXaV_HpeIEaIHv">
-    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rSpktas-a-DG0fS7mHjc-0" />
         <mxCell id="rSpktas-a-DG0fS7mHjc-1" parent="rSpktas-a-DG0fS7mHjc-0" />
@@ -330,6 +330,28 @@
         </mxCell>
         <mxCell id="rSpktas-a-DG0fS7mHjc-56" value="bind目标service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rSpktas-a-DG0fS7mHjc-55">
           <mxGeometry x="0.1334" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSZxh86dvVBq69cWw-O8-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.176;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.176;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="rSpktas-a-DG0fS7mHjc-22" target="rSpktas-a-DG0fS7mHjc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="625.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSZxh86dvVBq69cWw-O8-8" value="更新音源，媒体数据信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSZxh86dvVBq69cWw-O8-7">
+          <mxGeometry x="-0.1862" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSZxh86dvVBq69cWw-O8-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.176;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="570" as="sourcePoint" />
+            <mxPoint x="710" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSZxh86dvVBq69cWw-O8-10" value="注册播控接口，监听&lt;div&gt;播控动作触发播控&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSZxh86dvVBq69cWw-O8-9">
+          <mxGeometry x="-0.1862" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
