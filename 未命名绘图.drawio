@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="13">
   <diagram name="MediaCenter整体架构" id="N93IsJF5Zmy2jW_utWdf">
     <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,6 +202,136 @@
         </mxCell>
         <mxCell id="GS-NPImb5zr0AyaHI9rS-12" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="MediaCenter重构" id="CUfBlCtXaV_HpeIEaIHv">
+    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-0" />
+        <mxCell id="rSpktas-a-DG0fS7mHjc-1" parent="rSpktas-a-DG0fS7mHjc-0" />
+        <mxCell id="rSpktas-a-DG0fS7mHjc-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="290" y="250" width="520" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-3" value="V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="310" y="260" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-4" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="310" y="360" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="360" y="260" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-6" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-7" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="520" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-8" value="view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="660" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="370" y="300" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-10" value="BaseActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-11" value="BaseFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="520" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-12" value="dialog,button,tabview..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="650" y="305" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="319.5" as="sourcePoint" />
+            <mxPoint x="860" y="319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-14" value="不同音源 实现的页面UI不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="860" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="370" y="370" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="360" y="360" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-17" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="520" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-18" value="&amp;nbsp;BaseViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="410" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="424.5" as="sourcePoint" />
+            <mxPoint x="860" y="424.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-20" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="860" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-21" value="M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="310" y="480" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="360" y="480" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-23" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="495" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-24" value="BtMusicManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="530" y="495" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-25" value="MediaManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="670" y="495" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-26" value="MediaPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="530" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-27" value="UsbPlayerManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="530" y="530" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-28" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="670" y="530" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="524.5" as="sourcePoint" />
+            <mxPoint x="860" y="524.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-30" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="860" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-31" value="使用Arouter进行view页面的跳转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="rSpktas-a-DG0fS7mHjc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-35" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="310" y="650" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-37" value="MediaCenterService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="360" y="650" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="rSpktas-a-DG0fS7mHjc-37" target="rSpktas-a-DG0fS7mHjc-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="750" as="sourcePoint" />
+            <mxPoint x="590" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSpktas-a-DG0fS7mHjc-56" value="bind目标service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rSpktas-a-DG0fS7mHjc-55">
+          <mxGeometry x="0.1334" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
