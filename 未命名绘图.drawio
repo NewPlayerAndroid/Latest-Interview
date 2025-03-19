@@ -2112,7 +2112,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="网易云页面启动过程 " id="HkvsK1-FI8WfHkCg690C">
-    <mxGraphModel dx="2588" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2788" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-0" />
         <mxCell id="tJIQZwwzAjVrlEyp59sw-1" parent="tJIQZwwzAjVrlEyp59sw-0" />
@@ -2218,19 +2218,6 @@
         <mxCell id="tJIQZwwzAjVrlEyp59sw-40" value="ICloudMusicRepository.&lt;div&gt;&lt;div&gt;getDailyRecommendList&lt;/div&gt;&lt;div&gt;getPersonalWanderList&lt;/div&gt;&lt;div&gt;getPersonalRadarList&lt;/div&gt;&lt;div&gt;getRecommendPlayList&lt;/div&gt;&lt;div&gt;getTopList&lt;/div&gt;&lt;div&gt;getRecommendLatestSongList&lt;/div&gt;&lt;div&gt;fetchPodcastList&lt;/div&gt;&lt;div&gt;getAudioBookList&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="-825.75" y="1520" width="171.5" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-43" target="tJIQZwwzAjVrlEyp59sw-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="2040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-42" value="bindService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-41">
-          <mxGeometry x="-0.1357" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-43" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="1929.9966259765624" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-31" target="tJIQZwwzAjVrlEyp59sw-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-317.5" y="1180" as="targetPoint" />
@@ -2331,22 +2318,6 @@
         </mxCell>
         <mxCell id="tJIQZwwzAjVrlEyp59sw-71" value="&lt;span style=&quot;text-align: left;&quot;&gt;ICloudMusicRepository.&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;getSecondCategory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;getPodcastById&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry x="374.25" y="1520" width="151.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1" source="tJIQZwwzAjVrlEyp59sw-75" target="tJIQZwwzAjVrlEyp59sw-76">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="2180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-74" value="最终都是通过kaolaSdk获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tJIQZwwzAjVrlEyp59sw-73">
-          <mxGeometry x="-0.1717" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-75" value="ListeningService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="2044" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tJIQZwwzAjVrlEyp59sw-76" value="kaolaSdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tJIQZwwzAjVrlEyp59sw-1">
-          <mxGeometry x="-220" y="2170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vsJyrOk-x60VC2LxWO24-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJIQZwwzAjVrlEyp59sw-1">
           <mxGeometry relative="1" as="geometry">
