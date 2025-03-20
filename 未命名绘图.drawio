@@ -231,12 +231,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="MediaCenter重构" id="CUfBlCtXaV_HpeIEaIHv">
-    <mxGraphModel dx="1761" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rSpktas-a-DG0fS7mHjc-0" />
         <mxCell id="rSpktas-a-DG0fS7mHjc-1" parent="rSpktas-a-DG0fS7mHjc-0" />
         <mxCell id="_D8W22N4SECv90ZoiDRu-0" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="290" y="250" width="520" height="330" as="geometry" />
+          <mxGeometry x="290" y="250" width="820" height="620" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-1" value="V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="310" y="260" width="40" height="80" as="geometry" />
@@ -279,6 +279,14 @@
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="370" y="370" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-14" target="_D8W22N4SECv90ZoiDRu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-6" value="持有manager对象，拥有数据监听和播控能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C9A4mcox4jnEPcGym645-5">
+          <mxGeometry x="0.3905" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="360" y="360" width="520" height="90" as="geometry" />
@@ -328,7 +336,7 @@
             <mxPoint x="930" y="524.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-28" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+        <mxCell id="_D8W22N4SECv90ZoiDRu-28" value="不同音源 实现的业务不同，负责获取业务数据和播放动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="930" y="495" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-29" value="使用Arouter进行view页面的跳转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
@@ -347,106 +355,100 @@
           <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-33" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="310" y="750" width="40" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-34" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="310" y="610" width="40" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-34" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="310" y="740" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-35" target="_D8W22N4SECv90ZoiDRu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-4" value="持有manager对象，拥有数据监听和播控能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C9A4mcox4jnEPcGym645-3">
+          <mxGeometry x="0.0476" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="360" y="750" width="520" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-36" value="&amp;nbsp;BtMusicService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="765" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-37" value="UsbService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="530" y="765" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-38" value="CloudMusicPlayerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="670" y="765" width="140" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-39" value="RadioService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="800" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-40" value="ListeningService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="530" y="800" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-41" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="670" y="800" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="360" y="610" width="520" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-43" value="BluetoothProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="625" width="140" height="25" as="geometry" />
+        <mxCell id="_D8W22N4SECv90ZoiDRu-36" value="&amp;nbsp;BtMusicService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="625" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-44" value="UsbProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+        <mxCell id="_D8W22N4SECv90ZoiDRu-37" value="UsbService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="530" y="625" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-45" value="CloudMusicPlayerServiceManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="670" y="625" width="190" height="25" as="geometry" />
+        <mxCell id="_D8W22N4SECv90ZoiDRu-38" value="CloudMusicPlayerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="670" y="625" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-46" value="RadioProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+        <mxCell id="_D8W22N4SECv90ZoiDRu-39" value="RadioService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="380" y="660" width="120" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-40" value="ListeningService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="530" y="660" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-41" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="670" y="660" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-42" target="_D8W22N4SECv90ZoiDRu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9A4mcox4jnEPcGym645-2" value="绑定目标service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C9A4mcox4jnEPcGym645-1">
+          <mxGeometry x="0.0476" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="360" y="740" width="520" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-43" value="BluetoothProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="755" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-44" value="UsbProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="530" y="755" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-45" value="CloudMusicProxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="670" y="755" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-46" value="RadioProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="790" width="120" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-47" value="ListeningProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="530" y="660" width="130" height="25" as="geometry" />
+          <mxGeometry x="530" y="790" width="130" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-48" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="670" y="660" width="130" height="25" as="geometry" />
+          <mxGeometry x="670" y="790" width="130" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-49" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" target="_D8W22N4SECv90ZoiDRu-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="795" as="sourcePoint" />
-            <mxPoint x="860" y="794.5" as="targetPoint" />
+            <mxPoint x="860" y="655" as="sourcePoint" />
+            <mxPoint x="860" y="654.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-50" value="后台播放数据服务，不同音源实现不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="930" y="765" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-42" target="_D8W22N4SECv90ZoiDRu-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="620" as="sourcePoint" />
-            <mxPoint x="580" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-52" value="通过关联的proxy对象访问目标service，获取，监听，设置媒体音源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_D8W22N4SECv90ZoiDRu-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.511;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-35">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="750" as="sourcePoint" />
-            <mxPoint x="627" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-54" value="bind目标service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_D8W22N4SECv90ZoiDRu-53">
-          <mxGeometry x="0.1334" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="_D8W22N4SECv90ZoiDRu-50" value="提供外部交互服务，不同音源实现不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="930" y="625" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="654.5" as="sourcePoint" />
-            <mxPoint x="930" y="654.5" as="targetPoint" />
+            <mxPoint x="860" y="784.5" as="sourcePoint" />
+            <mxPoint x="930" y="784.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-56" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="930" y="625" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="755" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="-150" y="610" width="310" height="90" as="geometry" />
+          <mxGeometry x="-150" y="740" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-58" value="MediaServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="170" y="610" width="80" height="90" as="geometry" />
+          <mxGeometry x="170" y="740" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-59" value="MediaService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="-50" y="625" width="110" height="25" as="geometry" />
+          <mxGeometry x="-50" y="755" width="110" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-60" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-58" target="_D8W22N4SECv90ZoiDRu-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="705" as="sourcePoint" />
-            <mxPoint x="320.71067811865476" y="655" as="targetPoint" />
+            <mxPoint x="250" y="835" as="sourcePoint" />
+            <mxPoint x="320.71067811865476" y="785" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -456,7 +458,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-62" value="MediaProxyManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="-55" y="660" width="120" height="25" as="geometry" />
+          <mxGeometry x="-55" y="790" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" target="_D8W22N4SECv90ZoiDRu-57">
           <mxGeometry relative="1" as="geometry">
@@ -922,7 +924,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="蓝牙音乐工作流程 重构" id="iXgHhVoVomj3EE65mLYG">
-    <mxGraphModel dx="1621" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2014" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OfmC0HGGxOUfV06K8wc1-0" />
         <mxCell id="OfmC0HGGxOUfV06K8wc1-1" parent="OfmC0HGGxOUfV06K8wc1-0" />
