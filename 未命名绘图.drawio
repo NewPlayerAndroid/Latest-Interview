@@ -207,7 +207,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="MediaCenter重构" id="CUfBlCtXaV_HpeIEaIHv">
-    <mxGraphModel dx="2744" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2385" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rSpktas-a-DG0fS7mHjc-0" />
         <mxCell id="rSpktas-a-DG0fS7mHjc-1" parent="rSpktas-a-DG0fS7mHjc-0" />
@@ -220,29 +220,11 @@
         <mxCell id="_D8W22N4SECv90ZoiDRu-2" value="VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="310" y="360" width="40" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+        <mxCell id="_D8W22N4SECv90ZoiDRu-3" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22BaseActivity%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380%22%20y%3D%22305%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="360" y="260" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-4" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="260" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-5" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="520" y="260" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-6" value="view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="660" y="260" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="370" y="300" width="430" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-8" value="BaseActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="305" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-9" value="BaseFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="520" y="305" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-10" value="dialog,button,tabview..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="650" y="305" width="140" height="30" as="geometry" />
+        <mxCell id="_D8W22N4SECv90ZoiDRu-8" value="HomeBluetoothMusicFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="570" y="305" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -266,12 +248,6 @@
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="360" y="360" width="520" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-15" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="520" y="370" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-16" value="&amp;nbsp;BaseViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
-          <mxGeometry x="380" y="410" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -318,14 +294,16 @@
         <mxCell id="_D8W22N4SECv90ZoiDRu-29" value="使用Arouter进行view页面的跳转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="380" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-4">
+        <mxCell id="_D8W22N4SECv90ZoiDRu-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="sourcePoint" />
             <mxPoint x="440" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_D8W22N4SECv90ZoiDRu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-32" target="_D8W22N4SECv90ZoiDRu-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_D8W22N4SECv90ZoiDRu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="_D8W22N4SECv90ZoiDRu-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-32" value="使用eventbus进行组件间的通信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
@@ -491,8 +469,41 @@
         <mxCell id="ZQN98E8450ACW-Jwi8Gd-0" value="硬按键" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="-610" y="375" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sRdyKpxFfJS7nbDIIiWr-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MediaServiceAidl接口&lt;/h1&gt;&lt;div&gt;hardKeyMediaMode();//硬按键模式&lt;/div&gt;&lt;div&gt;voiceMediaMode(in MediaSemantic mediaSemantic,in VoiceCallback voiceCallback);//语音指令&lt;/div&gt;&lt;div&gt;cmdPlay();//播放&lt;/div&gt;&lt;div&gt;cmdPause();//暂停&lt;/div&gt;&lt;div&gt;cmdNext();//下一曲&lt;/div&gt;&lt;div&gt;cmdPrev();//上一曲&lt;/div&gt;&lt;div&gt;cmdFastForward();//快进&lt;/div&gt;&lt;div&gt;cmdFastRewind();//快退&lt;/div&gt;&lt;div&gt;cmdSeekTo(in int position);//拖动进度条&lt;/div&gt;&lt;div&gt;CloudMusicBean getMusicBean();//获取当前音源媒体信息&lt;/div&gt;&lt;div&gt;getCloudRecBean(in HotPlayCallback callback);//获取网易云推荐数据&lt;/div&gt;&lt;div&gt;getListeningRecBean(in HotPlayCallback callback);//获取云听推荐数据&lt;/div&gt;&lt;div&gt;changeMediaByWhere(in int sourceType);//切换音源（触发播放）&lt;/div&gt;&lt;div&gt;boolean LoginOrNot();//是否登录&lt;/div&gt;&lt;div&gt;changeSongCollectRequest(in String id, in boolean isCollect);//收藏歌曲&lt;/div&gt;&lt;div&gt;startMediaCenterApp(in int sourceType, in String businessType);//启动目标音源页（仅打开页面）&lt;/div&gt;&lt;div&gt;startMediaCenterAppWithData(in int sourceType, in String businessType, in String jsonData);//启动目标音源页（U盘业务详情）&lt;/div&gt;&lt;div&gt;boolean setScreenCast(boolean status);//设置投屏状态&lt;/div&gt;&lt;div&gt;boolean getScreenCast();//获取投屏状态&lt;/div&gt;&lt;div&gt;changeRadioBand(in int radioBand);//切换radio频道&lt;/div&gt;&lt;div&gt;registerMediaInfoChangedListener(in IMediaInfoChangedListener listener);//媒体数据变更变更监听&lt;/div&gt;&lt;div&gt;unRegisterMediaInfoChangedListener(in IMediaInfoChangedListener listener);//移除媒体数据变更监听&lt;/div&gt;&lt;div&gt;registerProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;unRegisterProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;int getCurrentMediaSource(in boolean isFromCeiling);//获取当前音源&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void updateCurrentMediaInfo(in CloudMusicBean cloudMusicBean);//更新当前播放信息（新增）&lt;/div&gt;&lt;div&gt;void registerVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//监听语音指令（新增）&lt;/div&gt;&lt;div&gt;void unregisterVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//移除语音指令监听（新增）&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+        <mxCell id="sRdyKpxFfJS7nbDIIiWr-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MediaServiceAidl接口&lt;/h1&gt;&lt;div&gt;hardKeyMediaMode();//硬按键模式&lt;/div&gt;&lt;div&gt;voiceMediaMode(in MediaSemantic mediaSemantic,in VoiceCallback voiceCallback);//语音指令&lt;/div&gt;&lt;div&gt;cmdPlay();//播放&lt;/div&gt;&lt;div&gt;cmdPause();//暂停&lt;/div&gt;&lt;div&gt;cmdNext();//下一曲&lt;/div&gt;&lt;div&gt;cmdPrev();//上一曲&lt;/div&gt;&lt;div&gt;cmdFastForward();//快进&lt;/div&gt;&lt;div&gt;cmdFastRewind();//快退&lt;/div&gt;&lt;div&gt;cmdSeekTo(in int position);//拖动进度条&lt;/div&gt;&lt;div&gt;CloudMusicBean getMusicBean();//获取当前音源媒体信息&lt;/div&gt;&lt;div&gt;getCloudRecBean(in HotPlayCallback callback);//获取网易云推荐数据&lt;/div&gt;&lt;div&gt;getListeningRecBean(in HotPlayCallback callback);//获取云听推荐数据&lt;/div&gt;&lt;div&gt;changeMediaByWhere(in int sourceType);//切换音源（触发播放）&lt;/div&gt;&lt;div&gt;boolean LoginOrNot();//是否登录&lt;/div&gt;&lt;div&gt;changeSongCollectRequest(in String id, in boolean isCollect);//收藏歌曲&lt;/div&gt;&lt;div&gt;startMediaCenterApp(in int sourceType, in String businessType);//启动目标音源页（仅打开页面）&lt;/div&gt;&lt;div&gt;startMediaCenterAppWithData(in int sourceType, in String businessType, in String jsonData);//启动目标音源页（U盘业务详情）&lt;/div&gt;&lt;div&gt;boolean setScreenCast(boolean status);//设置投屏状态&lt;/div&gt;&lt;div&gt;boolean getScreenCast();//获取投屏状态&lt;/div&gt;&lt;div&gt;changeRadioBand(in int radioBand);//切换radio频道&lt;/div&gt;&lt;div&gt;registerMediaInfoChangedListener(in IMediaInfoChangedListener listener);//媒体数据变更变更监听&lt;/div&gt;&lt;div&gt;unRegisterMediaInfoChangedListener(in IMediaInfoChangedListener listener);//移除媒体数据变更监听&lt;/div&gt;&lt;div&gt;registerProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;unRegisterProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;int getCurrentMediaSource(in boolean isFromCeiling);//获取当前音源&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void updateCurrentMediaInfo(in CloudMusicBean cloudMusicBean);//更新当前播放信息&lt;/div&gt;&lt;div&gt;void registerVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//监听语音指令&lt;/div&gt;&lt;div&gt;void unregisterVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//移除语音指令监听&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="-150" y="850" width="680" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-0" value="MainActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-1" value="HomeUsbMusicFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="710" y="270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-3" value="CloudMusicHomeFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="305" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-8" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="760" y="305" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-9" value="MainFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="520" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-13" value="HomeBluetoothMusicViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="570" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-15" value="MainActivityViewmodel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-16" value="HomeUsbMusicViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="710" y="370" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-17" value="CloudMusicHomeViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="380" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-18" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="760" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMQ-YEf9NiBJDvkWmvAf-19" value="MainViewModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="530" y="370" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
