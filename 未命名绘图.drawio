@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="14">
   <diagram name="MediaCenter整体架构" id="N93IsJF5Zmy2jW_utWdf">
-    <mxGraphModel dx="1961" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="ej64gbkuY5s0vnHcPtwu-29" value="UsbManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="495" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ej64gbkuY5s0vnHcPtwu-30" value="CloudMusicPlayerServiceManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ej64gbkuY5s0vnHcPtwu-30" value="MediaManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="495" width="190" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ej64gbkuY5s0vnHcPtwu-31" value="RadioPlayManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -130,7 +130,7 @@
         <mxCell id="dNu1YAPkmJO99sG7hc1J-8" value="UsbService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="765" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="dNu1YAPkmJO99sG7hc1J-9" value="CloudMusicPlayerService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-9" value="MediaService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="765" width="140" height="25" as="geometry" />
         </mxCell>
         <mxCell id="dNu1YAPkmJO99sG7hc1J-10" value="RadioService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -151,7 +151,7 @@
         <mxCell id="dNu1YAPkmJO99sG7hc1J-16" value="UsbProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="625" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="dNu1YAPkmJO99sG7hc1J-17" value="CloudMusicPlayerServiceManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dNu1YAPkmJO99sG7hc1J-17" value="MediaProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="625" width="190" height="25" as="geometry" />
         </mxCell>
         <mxCell id="dNu1YAPkmJO99sG7hc1J-18" value="RadioProxyManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -203,35 +203,11 @@
         <mxCell id="GS-NPImb5zr0AyaHI9rS-12" value="不同音源 实现的业务不同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="625" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="610" width="310" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-7" value="MediaServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="610" width="80" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-8" value="MediaService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="625" width="110" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yq7NBoiUg5dmW8urpGx-7" target="dNu1YAPkmJO99sG7hc1J-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="705" as="sourcePoint" />
-            <mxPoint x="320.71067811865476" y="655" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-15" value="关联Proxy对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textDirection=vertical-lr;" vertex="1" connectable="0" parent="0yq7NBoiUg5dmW8urpGx-14">
-          <mxGeometry x="-0.0111" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0yq7NBoiUg5dmW8urpGx-16" value="MediaProxyManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="660" width="120" height="25" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="MediaCenter重构" id="CUfBlCtXaV_HpeIEaIHv">
-    <mxGraphModel dx="2607" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rSpktas-a-DG0fS7mHjc-0" />
         <mxCell id="rSpktas-a-DG0fS7mHjc-1" parent="rSpktas-a-DG0fS7mHjc-0" />
@@ -503,6 +479,20 @@
         </mxCell>
         <mxCell id="_D8W22N4SECv90ZoiDRu-78" value="仪表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
           <mxGeometry x="-400" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQN98E8450ACW-Jwi8Gd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rSpktas-a-DG0fS7mHjc-1" source="ZQN98E8450ACW-Jwi8Gd-0" target="_D8W22N4SECv90ZoiDRu-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-550" y="520" />
+              <mxPoint x="5" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZQN98E8450ACW-Jwi8Gd-0" value="硬按键" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="-610" y="375" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sRdyKpxFfJS7nbDIIiWr-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MediaServiceAidl接口&lt;/h1&gt;&lt;div&gt;hardKeyMediaMode();//硬按键模式&lt;/div&gt;&lt;div&gt;voiceMediaMode(in MediaSemantic mediaSemantic,in VoiceCallback voiceCallback);//语音指令&lt;/div&gt;&lt;div&gt;cmdPlay();//播放&lt;/div&gt;&lt;div&gt;cmdPause();//暂停&lt;/div&gt;&lt;div&gt;cmdNext();//下一曲&lt;/div&gt;&lt;div&gt;cmdPrev();//上一曲&lt;/div&gt;&lt;div&gt;cmdFastForward();//快进&lt;/div&gt;&lt;div&gt;cmdFastRewind();//快退&lt;/div&gt;&lt;div&gt;cmdSeekTo(in int position);//拖动进度条&lt;/div&gt;&lt;div&gt;CloudMusicBean getMusicBean();//获取当前音源媒体信息&lt;/div&gt;&lt;div&gt;getCloudRecBean(in HotPlayCallback callback);//获取网易云推荐数据&lt;/div&gt;&lt;div&gt;getListeningRecBean(in HotPlayCallback callback);//获取云听推荐数据&lt;/div&gt;&lt;div&gt;changeMediaByWhere(in int sourceType);//切换音源（触发播放）&lt;/div&gt;&lt;div&gt;boolean LoginOrNot();//是否登录&lt;/div&gt;&lt;div&gt;changeSongCollectRequest(in String id, in boolean isCollect);//收藏歌曲&lt;/div&gt;&lt;div&gt;startMediaCenterApp(in int sourceType, in String businessType);//启动目标音源页（仅打开页面）&lt;/div&gt;&lt;div&gt;startMediaCenterAppWithData(in int sourceType, in String businessType, in String jsonData);//启动目标音源页（U盘业务详情）&lt;/div&gt;&lt;div&gt;boolean setScreenCast(boolean status);//设置投屏状态&lt;/div&gt;&lt;div&gt;boolean getScreenCast();//获取投屏状态&lt;/div&gt;&lt;div&gt;changeRadioBand(in int radioBand);//切换radio频道&lt;/div&gt;&lt;div&gt;registerMediaInfoChangedListener(in IMediaInfoChangedListener listener);//媒体数据变更变更监听&lt;/div&gt;&lt;div&gt;unRegisterMediaInfoChangedListener(in IMediaInfoChangedListener listener);//移除媒体数据变更监听&lt;/div&gt;&lt;div&gt;registerProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;unRegisterProjectionScreenChangedListener(in IProjectionScreenChangedListener listener);&lt;/div&gt;&lt;div&gt;int getCurrentMediaSource(in boolean isFromCeiling);//获取当前音源&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void updateCurrentMediaInfo(in CloudMusicBean cloudMusicBead);//更新当前播放信息（新增）&lt;/div&gt;&lt;div&gt;void registerVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//监听语音指令（新增）&lt;/div&gt;&lt;div&gt;void unregisterVoiceRemoteCtrlListener(in VoiceRemoteCtrlListener listener);//移除语音指令监听（新增）&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rSpktas-a-DG0fS7mHjc-1">
+          <mxGeometry x="-150" y="850" width="640" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
